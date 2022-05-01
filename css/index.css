@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+
+.mdiv{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#mlogo{
+    margin-top: 10vh;
+    width: 20vh;
+    height: 20vh;
+    background: #E4AD0D;
+    display: block;
+    margin-left: calc(calc(100vw - 20vh) / 2);
+    margin-right: calc(calc(100vw - 20vh) / 2);
+    font-size: 4rem;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 20vh;
+    user-select: none;
+    color: black;
+
+
+    animation: rotateone 42s alternate 4s infinite;
+
+
+}
+
+
+
+@keyframes rotateone {
+    0% {
+
+    }
+    10%{
+        transform: rotate(360deg);
+    }
+    100%{
+        
+        transform: rotate(3600deg) scale(1.069420);
+    }
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    font-size: 0.8rem;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+    background: rgba(255,255,255,0.042);
+}

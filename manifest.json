@@ -1,0 +1,12 @@
+{
+    "name":"ClientCrash",
+    "start_url":"/?source=pwa",
+    "background_color":"#000000",
+    "theme_color":"#E4AD0D",
+    "icons":[
+        {"src":"logo_b1.png","sizes":"144x144","type": "image/png"}
+    ],
+    "description":"ClientCrash - Developer",
+    "display":"standalone",
+    "scope":"/"
+}
