@@ -3,6 +3,7 @@
 @font-face {
     font-family: "Open Sans Light";
     src: url('https://clientcrash.com/font/Open_Sans/1.ttf');
+    font-display: swap;
 }
 
 body{
